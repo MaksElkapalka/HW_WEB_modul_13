@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hw-web-10"
+version = "0.1.0"
+description = ""
+authors = ["Maksym <150614204+MaksElkapalka@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.4"
+psycopg2 = "^2.9.9"
+sqlalchemy = "^2.0.29"
+pymongo = "^4.7.1"
+django-environ = "^0.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

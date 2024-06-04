@@ -1,0 +1,13 @@
+{% extends 'quotes/base.html' %}
+
+{% block content %}
+<h1>Видалення цитати</h1>
+<p>Ви впевнені, що хочете видалити цю цитату?</p>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Так, видалити</button>
+    <button href="/">Скасувати</button>
+</form>
+
+
+{% endblock %}
